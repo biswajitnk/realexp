@@ -1,0 +1,484 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #fd9b2c;
+    z-index: 1;
+}
+
+/* Sticky Navbar */
+
+
+
+.logo {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-inline: 24px;
+
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.submit-btn{
+    background: red;
+    border: 10px solid red;
+    border-radius: 7px;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.search-bar button{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger > div {
+    width: 25px;
+    height: 2px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Home Image style */
+
+.home{
+    display: flex;
+    height: 100vh;
+    background-color: yellow;
+    background: url(img/doctorhome.jpg) no-repeat center ;
+    justify-content: center;
+}
+
+/* About menu */
+
+#about .max-width{
+    max-width: 75%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.max-width .title{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 17px;
+}
+
+.about-content{
+    /* display: flex; */
+    align-items: center;
+}
+
+.colom-right img{
+    width: 450px;
+    height: 450px;
+}
+
+.colom-left{
+    margin-top: 20px;
+}
+
+.colom-left .text{
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.colom-left .text span{
+    color: orange;
+    background-color: black;
+}
+
+/* <!-- All Services Section --> */
+
+#Services .max-width{
+    text-align: center;
+}
+
+.max-width .container{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+.container .container1{
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    margin-top: 14px;
+    
+}
+
+.container .container1 img{
+    height: 250px;
+    width: 250px;
+    
+}
+
+.container .container1 button{
+    position: relative;
+    bottom: 67px;
+    background-color: #f7ff00;
+    color: black;
+    padding: 3px 20px;
+    font-size: 19px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: yellow;
+}
+
+.container .container2{
+    background-color: rgb(217, 255, 0);
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    margin-top: 14px;
+    
+}
+
+.container .container2 img{
+    height: 250px;
+    width: 250px;
+    background: button;
+}
+
+.container .container2 button{
+    position: relative;
+    bottom: 67px;
+    background-color: #f7ff00;
+    color: black;
+    padding: 3px 20px;
+    font-size: 19px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: yellow;
+}
+
+.container .container3{
+    background-color: rgb(0, 255, 55);
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    margin-top: 14px;
+    
+}
+
+.container .container3 img{
+    height: 250px;
+    width: 250px;
+    background: button;
+}
+
+.container .container3 button{
+    position: relative;
+    bottom: 67px;
+    background-color: #f7ff00;
+    color: black;
+    padding: 3px 20px;
+    font-size: 19px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: yellow;
+}
+
+.container .container4{
+    background-color: rgb(0, 174, 255);
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    margin-top: 14px;
+    
+}
+
+.container .container4 img{
+    height: 250px;
+    width: 250px;
+    background: button;
+}
+
+.container .container4 button{
+    position: relative;
+    bottom: 67px;
+    background-color: #f7ff00;
+    color: black;
+    padding: 3px 20px;
+    font-size: 19px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: yellow;
+}
+
+.container1 .text-1{
+    font-size: 31px;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+
+.container2 .text-2{
+    font-size: 31px;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+
+.container3 .text-3{
+    font-size: 31px;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+
+.container4 .text-4{
+    font-size: 31px;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+
+
+/* Table Section Style  */
+
+#table{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+#table .title{
+    text-align: center;
+    margin: inherit;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+#table .dr-table{
+    display: grid;
+
+}
+
+#table .dr-table tbody {
+    background-color: aqua;
+    font-size: 19px;
+    text-align: center;
+    
+}
+
+/* Founder and cofounder Styling */
+
+#owner h3{
+    text-align: center;
+    margin-bottom: 19px;
+    font-size: 27px;
+}
+
+.card-container{
+    display: flex;
+}
+
+.card-container .card-1{
+    width: 50%;
+    margin-bottom: 14px;
+    margin-left: 4px;
+    margin-right: 4px;
+    
+}
+
+.card-container .card-1 img{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.card-container .card-text{
+    text-align: center;
+    margin-top: 14px;
+}
+
+.card-container .card-text .founder{
+    margin-bottom: 4px;
+}
+
+.card-container .card-2{
+    width: 50%;
+    margin-bottom: 14px;
+    margin-left: 4px;
+    margin-right: 4px;
+    
+}
+
+.card-container .card-2 img{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.card-container .card-text .co-founder{
+    margin-bottom: 4px;
+}
+
+/* Responsive All Service section */
+
+@media screen and (max-width: 800px){
+    .max-width .container{
+        background-color: rgb(225, 0, 255);
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .max-width .container{
+        background-color: rgb(255, 0, 128);
+    }
+    
+}
+
+@media screen and (max-width: 557px){
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+/* 
+.home-1{
+    display: flex;
+    align-items: center;
+}
+
+.home-text{
+    font-size: 89px;
+    margin-left: 115px;
+}
+
+.home-text h3{
+    font-weight: 10;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home-text h3 span{
+    font-family: ubantu;
+}
+
+.home-text a{
+    background-color: #ff1800;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 17px;
+
+} */
+
+/* Responsive Nav Menu  */
+
+
+@media screen and (max-width: 1024px) {
+    nav-links{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #5d4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFadeIn{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes navLinkFadeOut{
+    from{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    to{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(+45deg) translate(-5px, -5px);
+}
